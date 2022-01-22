@@ -1,0 +1,27 @@
+/* Creamos las variables que tendran como valor los colores a utilizar */
+:root {
+    --blanco: white;
+    --azul: #124f88;
+    --melon: #F7C331;
+    --negro: black;
+    --crema: #e5e5e5;
+    --azulito: #3A4460;
+}
+
+/* Aplicamos estilos ala pagina en general ya que el normalice no contiene el box-sizing */
+
+* {
+    box-sizing:  border-box;
+}
+
+/* Aplicamos propiedades básicas al Body */
+/* Aplicamos un padding para que no allana elementos detras del header */
+body {
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 60px;
+
+}
+
+video {
+    width: 100%;
+}

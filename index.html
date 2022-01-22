@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La_Programacion</title>
+
+    <!-- Hojas de estilo en cascada (CSS)-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Normalice.Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"/>
+    
+    <!-- FontAwesone para extraer los Iconos de la página -->
+    <script src="https://kit.fontawesome.com/11614eb144.js"></script>
+    
+    <!-- GoogleFont para extraer los tipos de letras de la web -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Corinthia&family=Crete+Round&family=Dongle:wght@700&family=Merriweather:wght@300&family=Montserrat:wght@400;500;700&family=Patrick+Hand&family=Slabo+13px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="principal">
+        <nav class="navegacion">
+            <a href="#" class="logo-izquierdo">
+                <img src="imagenes/logo3.png" alt="">
+
+                <div class="logo-izquiero-2">
+                    Desarrollo Web
+                </div>
+            </a>
+            <button class="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="contenedor-menu open-menu">
+                <button class="cerrar-menu">
+                    <i class="fas fa-times"></i>
+                </button>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#lenguajes">lenguajes</a></li>
+                <li><a href="#desarrollo">Desarrollo</a></li>
+                <li><a href="#registrarse">Registrate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="video">
+        <div class="divi">
+            <h1>Se un Desarrollador Frontend!<br> Aprende Html, Css and JavaScript</h1>
+            <video  muted autoplay loop src="video/Fondo Tecnológico HD(720P_HD)_1.mp4"></video>
+        </div>
+        
+    </section>
+    <section class="lenguajes" id="lenguajes">
+        <h3>Lenguajes</h3>
+        <ul class="lista">
+            <li><a href="#"></a>Html</li>
+            <li><a href="#"></a>Css</li>
+            <li><a href="#"></a>JavaScript</li>
+            <li><a href="#"></a>React.Js</li>
+            <li><a href="#"></a>vue.Js</li>
+        </ul>
+    </section>
+
+    <div class="desarrollo">
+        <h3>Desarrollo</h3>
+        <p>En Laboratoria, nos hemos dedicado a transformar la vida de muchas mujeres y el rostro de la industria tecnológica formando las mejores Front-end Developers, pero, ¿qué significa ser front-end developer?.
+            En muchas ocasiones, veremos que una Front-end Developer se encarga de programar el lado del cliente (navegador) de una web. Sin embargo, esta es una descripción muy superficial de este perfil, así que definamos qué es una Front-end Developer en Laboratoria.</p>
+        <p>Las empresas de tecnología necesitan atraer a sus usuarios a través de un servicio público al que puedan acceder rápidamente, normalmente esto es una web. Y para llevar a cabo su construcción de la mejor manera se necesita a una desarrolladora.</p>
+        <h3>¿Qué hace un  Desarrollador Frontend?</h3>
+        <ul class="lista-oficios" id="desarrollo">
+            <li>Llevar el diseño a la web usando HTML, CSS y JS.</li>
+            <li>Programar, cambiar y mantener un sitio web.</li>
+            <li>Adaptar el diseño de una web a diversos dispositivos y navegadores.</li>
+            <li>Crear herramientas que mejoren la interacción entre el usuario y la web.</li>
+            <li>Usar APIs para conectar la web con diversos servicios o sistemas.</li>
+        </ul>
+        <p>La etapa de llevar el diseño a la vida, se produce en esta actividad. Esto no es simplemente agarrar un Sketch o PSD y ponerlo en HTML y CSS, esto implica asegurar que la web se pueda ver bien en diferentes dispositivos (TVs, PCs, laptops, tablets, móviles, etc) y en distintos navegadores en muchas ocasiones (IE, Firefox, Chrome, etc).</p>
+        <p>En esta fase, se desarrollan diversos enfoques de programación. Los más comunes son: programar la interacción que el usuario tendrá con la web a través de eventos, desarrollar algún algoritmo para llevar a cabo una determinada funcionalidad, programar la comunicación con el back-end a través un API, entre otros.</p>
+        <p>Esta actividad consiste en realizar o entender el flujo de cómo publicar el proyecto desarrollado a internet. Esto implica coordinación con todo el equipo (cliente involucrado) y realizar pruebas para estar seguros que el usuario final no encontrará algún error inesperado.</p>
+    </div>
+
+    <div class="formulario-1" id="registrarse">
+        <form action="" class="formulario">
+            <input class="input" type="text" placeholder="Usuario" required>
+            <input class="input"  type="email" placeholder="Correo Electronico">
+            <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje a Fernando"></textarea>
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+
+    <footer class="final">
+        <h4>Contactanos</h3>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-twitter-square"></i>
+    </footer>
+    
+
+
+
+    <!-- Lenguaje de Programación JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
